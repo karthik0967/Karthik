@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="Assets/kk.png" />
+    <title>Karthik R</title>
+  </head>
+  <body onload="myFunction()" style="margin: 0">
+    <center><div id="loader"></div></center>
+
+    <div style="display: none" id="myDiv" class="animate-bottom">
+      <!-- <h2>Tada!</h2>
+      <p>Some text in my newly loaded page..</p> -->
+      <nav
+        class="navbar navbar-expand-lg bg-lignt navbar-dark sticky-top"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Karthik R</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">More</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Home -->
+
+      <div class="container text-center home">
+        <div class="row flex-column-reverse flex-lg-row">
+          <div class="col-sm-4">
+            <p class="name">Hi, I'm Karthik</p>
+            <p class="info">
+              Computer Science Graduate seeking an opportunity to work,
+              contribute and enhance my skills.
+            </p>
+          </div>
+          <div class="col-sm-8 dp">
+            <img src="Assets/Karthik.JPG" alt="" class="img-fluid ab" />
+          </div>
+        </div>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cum
+        praesentium placeat nulla. Voluptas ullam pariatur fugit eius
+        repellendus, iusto reprehenderit. Aspernatur inventore dolor dolorem
+        maxime esse, ipsa est quae!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cum
+        praesentium placeat nulla. Voluptas ullam pariatur fugit eius
+        repellendus, iusto reprehenderit. Aspernatur inventore dolor dolorem
+        maxime esse, ipsa est quae!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cum
+        praesentium placeat nulla. Voluptas ullam pariatur fugit eius
+        repellendus, iusto reprehenderit. Aspernatur inventore dolor dolorem
+        maxime esse, ipsa est quae!
+      </p>
+    </div>
+    <!-- Home -->
+
+    <script>
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 1000);
+        //document.body.style.backgroundColor = "#FAF8F1";
+      }
+
+      function showPage() {
+        //document.body.style.backgroundColor = "#F7EFE5";
+        document.body.style.backgroundColor = "#03001C";
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
