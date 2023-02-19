@@ -16,6 +16,7 @@
   border-right: 4px solid transparent;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
+  display: none;
   /* animation: rotation 2s infinite; */
 }
 #welcome {
@@ -29,6 +30,7 @@
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   color: black;
+  display: none;
 }
 
 @media (max-width: 900px) {
@@ -39,6 +41,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    display: none;
   }
   #welcome {
     position: fixed;
@@ -51,6 +54,7 @@
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif;
     color: black;
+    display: none;
   }
 }
 

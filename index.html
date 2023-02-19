@@ -20,8 +20,8 @@
     <title>Karthik R</title>
   </head>
   <body onload="myFunction()" style="margin: 0">
-    <center><div id="loader"></div></center>
     <center><div id="welcome">Hi...</div></center>
+    <center><div id="loader"></div></center>
 
     <div style="display: none" id="myDiv" class="animate-bottom">
       <nav
@@ -182,7 +182,6 @@
       var wel;
 
       function myFunction() {
-        document.getElementById("welcome").style.display = "none";
         document.getElementById("loader").style.display = "block";
         myVar = setTimeout(showwelcm, 1000);
 
