@@ -182,9 +182,10 @@
       var wel;
 
       function myFunction() {
-        myVar = setTimeout(showwelcm, 1000);
         document.getElementById("welcome").style.display = "none";
         document.getElementById("loader").style.display = "block";
+        myVar = setTimeout(showwelcm, 1000);
+
         //document.body.style.backgroundColor = "#FAF8F1";
       }
       function showwelcm() {
