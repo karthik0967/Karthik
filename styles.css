@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Labrada:wght@500&display=swap");
+
 #loader {
   /* margin-top: 20%; */
   position: fixed;
@@ -12,7 +14,7 @@
   height: 60px;
   border-radius: 50%;
   display: inline-block;
-  border-top: 4px solid rgb(5, 5, 5);
+  border-top: 4px solid rgb(170, 37, 37);
   border-right: 4px solid transparent;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
@@ -26,10 +28,10 @@
   left: 0;
   right: 0;
   margin: auto;
-  font-size: 42px;
-  font-weight: bold;
-  font-family: "Josefin Sans", sans-serif;
-  color: black;
+  font-size: 45px;
+  color: #f99417;
+  font-family: "Labrada", serif;
+
   display: none;
 }
 
@@ -50,10 +52,10 @@
     left: 0;
     right: 0;
     margin: auto;
-    font-size: 42px;
-    font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
-    color: black;
+    font-size: 45px;
+    color: #f99417;
+    font-family: "Labrada", serif;
+
     display: none;
   }
 }
@@ -164,7 +166,7 @@
 }
 .ab {
   padding: 2.5%;
-  border-radius: 0 100px 100px 0;
+  border-radius: 50px 50px 50px 50px;
 }
 p {
   color: white;
