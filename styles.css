@@ -105,6 +105,12 @@
   text-align: center;
 }
 
+.titles {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 2.5%;
+}
 /* NAVBAR */
 .navbar {
   background: #03001c;
@@ -176,12 +182,6 @@ p {
 .skills {
   margin-top: 4.5%;
 }
-.skk {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 40px;
-  color: white;
-  margin-bottom: 2.5%;
-}
 
 .imgsk {
   margin: 3%;
@@ -202,3 +202,22 @@ p {
     align-items: center;
   }
 }
+
+/* Experience */
+
+.imgex {
+  padding: 20px;
+}
+.pex {
+  text-align: left;
+  font-size: 20px;
+  padding: 10px;
+}
+.cts {
+  background-color: #f99417;
+}
+/* @media (max-width: 300px) {
+  .experience {
+    box-sizing: none;
+  }
+} */
