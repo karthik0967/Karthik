@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -18,7 +19,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="icon" type="image/png" href="Assets/kk.png" />
-    <title>Karthik R</title>
+    <title>Karthik R | Profile</title>
   </head>
   <body onload="myFunction()" style="margin: 0">
     <center><div id="welcome">hi...</div></center>
@@ -195,10 +196,10 @@
 
       <!--Experience-->
       <section id="experience">
-        <div class="container experience">
+        <div class="container text-center experience">
           <h2 class="titles">Experience</h2>
-          <div class="row cts">
-            <div class="col-4">
+          <div class="row flex-lg-row">
+            <div class="col-sm-4">
               <img
                 src="https://media.glassdoor.com/sqll/8014/cognizant-technology-solutions-squarelogo-1533046362395.png"
                 alt=""
@@ -207,13 +208,90 @@
                 class="imgex"
               />
             </div>
-            <div class="col-8">
+            <div class="col-sm-8">
               <p class="pex">Cognizant Technology Solutions</p>
             </div>
           </div>
         </div>
       </section>
       <!--Experience-->
+      <center><hr style="color: white; width: 90%" /></center>
+      <!--Experience-->
+      <!--Footer-->
+
+      <footer>
+        <div class="container text-center">
+          <div
+            class="row row-cols-1 row-cols-sm-3 row-cols-md-3"
+            style="padding: 25px"
+          >
+            <div
+              class="col down"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <a href="Assets/Resume.pdf" download>
+                <button type="button" class="btn btn-success">
+                  Download Resume
+                </button>
+              </a>
+            </div>
+
+            <div
+              class="col contact"
+              style="
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+              "
+            >
+              <li>
+                <img src="assets/mail.png" class="icon" alt="" />
+                karthik765239@gmail.com
+              </li>
+              <li>
+                <img src="assets/telephone.png" class="icon" alt="" />8838407547
+              </li>
+              <li>
+                <img src="assets/home.png" class="icon" alt="" />Kumbakonam -
+                612103
+              </li>
+            </div>
+
+            <div
+              class="col"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <a href="https://github.com/karthik0967"
+                ><img
+                  src="assets/git.png"
+                  alt=""
+                  srcset=""
+                  class="social"
+                  style="margin-right: 7%"
+              /></a>
+              <a href="https://www.linkedin.com/in/karthik0967">
+                <img src="assets/lin.png" alt="" srcset="" class="social"
+              /></a>
+            </div>
+          </div>
+          <p
+            class="copyright"
+            style="margin: 2% 0 0 0; font-family: 'Alkatra', cursive"
+          >
+            Karthik's Portfolio © 2023, All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+
+      <!--Footer-->
     </div>
 
     <script>
@@ -224,7 +302,7 @@
         document.body.style.backgroundColor = "#03001C";
         document.getElementById("welcome").style.display = "none";
         document.getElementById("loader").style.display = "block";
-        myVar = setTimeout(showwelcm, 2000);
+        myVar = setTimeout(showwelcm, 0);
 
         //document.body.style.backgroundColor = "#FAF8F1";
       }
@@ -232,7 +310,7 @@
         document.body.style.backgroundColor = "#03001C";
         document.getElementById("loader").style.display = "none";
         document.getElementById("welcome").style.display = "block";
-        wel = setTimeout(showPage, 1500);
+        wel = setTimeout(showPage, 0);
       }
 
       function showPage() {

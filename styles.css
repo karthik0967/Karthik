@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Labrada:wght@500&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 #loader {
   /* margin-top: 20%; */
   position: fixed;
@@ -181,6 +182,8 @@ p {
 /* Skills */
 .skills {
   margin-top: 4.5%;
+  background-color: #df7857;
+  border-radius: 25px;
 }
 
 .imgsk {
@@ -204,20 +207,25 @@ p {
 }
 
 /* Experience */
-
-.imgex {
-  padding: 20px;
+.experience {
+  margin: 2.5%;
 }
-.pex {
+/* Footer */
+footer {
+  background-color: #16213e;
+}
+footer li {
+  list-style: none;
+  font-family: "Alkatra", cursive;
+  font-size: 16px;
   text-align: left;
-  font-size: 20px;
-  padding: 10px;
+  color: azure;
 }
-.cts {
-  background-color: #f99417;
+.icon {
+  margin: 2.5%;
 }
-/* @media (max-width: 300px) {
-  .experience {
-    box-sizing: none;
-  }
-} */
+
+.social {
+  height: 38px;
+  width: 38px;
+}
