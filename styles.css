@@ -3,6 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Labrada:wght@500&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap");
+
 #loader {
   /* margin-top: 20%; */
   position: fixed;
@@ -114,20 +117,20 @@
 }
 /* NAVBAR */
 .navbar {
-  background: #03001c;
+  /* background: #03001c; */
+  background: #0f0e0e;
 }
 .navbar-brand {
-  font-size: 40px !important;
+  font-size: 25px !important;
   color: #e38b29 !important;
-  padding: 30px;
+  padding: 25px;
   margin: 2px;
   font-weight: bold;
-
-  border-radius: 30%;
 }
 .nav-item {
   margin: 0 60px 0 60px;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Alkatra", cursive;
 }
 .nav-item .nav-link {
   color: white;
@@ -137,12 +140,13 @@
 
 .home {
   padding: 1%;
-  margin-bottom: 3%;
+  height: 90vh;
+  width: auto;
 }
 .name {
   font-family: "Josefin Sans", sans-serif;
   font-size: 55px;
-  margin-top: 50%;
+  margin-top: 20%;
   text-align: left;
 }
 .info {
@@ -153,7 +157,8 @@
   .name {
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
-    margin-top: 10%;
+
+    margin-top: 30vh;
   }
   .name {
     text-align: center;
@@ -162,9 +167,9 @@
     text-align: center;
   }
   .navbar-brand {
-    font-size: 30px !important;
+    font-size: 20px !important;
     color: #e38b29 !important;
-    padding: 30px;
+    padding: 25px;
     margin: 2px;
     font-weight: bold;
 
@@ -182,7 +187,6 @@ p {
 /* Skills */
 .skills {
   margin-top: 4.5%;
-  background-color: #df7857;
   border-radius: 25px;
 }
 
@@ -204,6 +208,17 @@ p {
   .flex-lg-row {
     align-items: center;
   }
+  .imgsk {
+    height: 30px;
+    width: 25px;
+  }
+  .psk {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+  }
+  .titles {
+    font-size: 22px;
+  }
 }
 
 /* Experience */
@@ -222,10 +237,12 @@ footer li {
   color: azure;
 }
 .icon {
-  margin: 2.5%;
+  margin: 2.5% 5% 2.5% 8%;
 }
 
-.social {
-  height: 38px;
-  width: 38px;
+.social1 {
+  margin-right: 5px;
+}
+.social2 {
+  margin-left: 5px;
 }
