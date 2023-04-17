@@ -113,7 +113,7 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 40px;
   color: white;
-  margin-bottom: 2.5%;
+  margin-bottom: 6%;
 }
 /* NAVBAR */
 .navbar {
@@ -165,6 +165,7 @@
   }
   .info {
     text-align: center;
+    font-size: 16px;
   }
   .navbar-brand {
     font-size: 20px !important;
@@ -186,8 +187,11 @@ p {
 
 /* Skills */
 .skills {
-  margin-top: 4.5%;
-  border-radius: 25px;
+  height: 90vh;
+  margin-top: 8%;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .imgsk {
@@ -209,8 +213,8 @@ p {
     align-items: center;
   }
   .imgsk {
-    height: 30px;
-    width: 25px;
+    height: 32px;
+    width: 27px;
   }
   .psk {
     font-family: "Josefin Sans", sans-serif;
@@ -218,6 +222,13 @@ p {
   }
   .titles {
     font-size: 22px;
+  }
+  .skills {
+    height: 60vh;
+    margin-top: 20%;
+
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -241,8 +252,18 @@ footer li {
 }
 
 .social1 {
-  margin-right: 5px;
+  margin-right: 3px;
 }
 .social2 {
-  margin-left: 5px;
+  margin-left: 3px;
+}
+
+@media (max-width: 990px) {
+  footer li {
+    list-style: none;
+    font-family: "Alkatra", cursive;
+    font-size: 12px;
+    text-align: left;
+    color: azure;
+  }
 }
