@@ -6,6 +6,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap");
 
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 #loader {
   /* margin-top: 20%; */
   position: fixed;
@@ -113,7 +120,8 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 40px;
   color: white;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 /* NAVBAR */
 .navbar {
@@ -236,6 +244,7 @@ p {
 .experience {
   height: 90vh;
   margin-top: 8%;
+
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -245,7 +254,7 @@ p {
   margin: 1.5% 2% 1% 0;
 }
 .job {
-  padding: 3% 27% 0 27%;
+  padding: 2% 27% 0 27%;
 }
 .pex {
   font-weight: bold;
