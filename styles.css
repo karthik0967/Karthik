@@ -234,8 +234,60 @@ p {
 
 /* Experience */
 .experience {
-  margin: 2.5%;
+  height: 90vh;
+  margin-top: 8%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+.imgex {
+  float: left;
+  margin: 1.5% 2% 1% 0;
+}
+.job {
+  padding: 3% 27% 0 27%;
+}
+.pex {
+  font-weight: bold;
+  text-align: left;
+  margin: 1.5% 2% 0% 2%;
+}
+.pexp {
+  float: left;
+  text-align: justify;
+}
+.desc {
+  padding: 3% 27% 0 27%;
+}
+
+@media (max-width: 990px) {
+  .experience {
+    height: 60vh;
+    margin-top: 20%;
+    align-items: center;
+    justify-content: center;
+  }
+  .job {
+    padding: 3% 5% 0 3%;
+  }
+  .imgex {
+    float: left;
+    height: 80px;
+    width: 80px;
+  }
+  .pex {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .pexp {
+    font-size: 15px;
+    float: left;
+  }
+  .desc {
+    padding: 3% 5% 0 3%;
+  }
+}
+
 /* Footer */
 footer {
   background-color: #16213e;
@@ -263,7 +315,25 @@ footer li {
     list-style: none;
     font-family: "Alkatra", cursive;
     font-size: 12px;
-    text-align: left;
+    /* text-align: left; */
     color: azure;
+  }
+  .icon {
+    margin: 2.5% 5% 2.5% 4%;
+    height: 25px;
+    width: 25px;
+  }
+  .contact {
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .icon {
+    margin: 2.7% 11% 2.7% 11%;
+    height: 25px;
+    width: 25px;
+  }
+  .contact {
+    padding: 20px;
   }
 }
