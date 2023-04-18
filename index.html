@@ -309,7 +309,11 @@
 
             <div
               class="col"
-              style="justify-content: center; align-items: center"
+              style="
+                justify-content: center;
+                align-items: center;
+                display: flex;
+              "
             >
               <a href="https://github.com/karthik0967"
                 ><img src="Assets/git.png" alt="" srcset="" class="social1"
@@ -340,7 +344,7 @@
         document.body.style.backgroundColor = "#03001C";
         document.getElementById("welcome").style.display = "none";
         document.getElementById("loader").style.display = "block";
-        myVar = setTimeout(showwelcm, 1500);
+        myVar = setTimeout(showwelcm, 0);
 
         //document.body.style.backgroundColor = "#FAF8F1";
       }
@@ -348,7 +352,7 @@
         document.body.style.backgroundColor = "#03001C";
         document.getElementById("loader").style.display = "none";
         document.getElementById("welcome").style.display = "block";
-        wel = setTimeout(showPage, 1500);
+        wel = setTimeout(showPage, 0);
       }
 
       function showPage() {
