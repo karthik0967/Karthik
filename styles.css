@@ -243,7 +243,7 @@ p {
 
 /* Experience */
 .experience {
-  height: 90vh;
+  height: auto;
   margin-top: 8%;
 
   align-items: center;
@@ -344,5 +344,11 @@ footer li {
   }
   .contact {
     padding: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .copyright {
+    font-size: 14px;
   }
 }
