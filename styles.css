@@ -13,6 +13,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 #loader {
   /* margin-top: 20%; */
@@ -294,6 +295,24 @@ p {
   }
   .desc {
     padding: 3% 5% 0 3%;
+  }
+}
+
+/* Projects and Certifications*/
+.projcerti {
+  text-align: left;
+  color: white;
+  display: inline-block;
+}
+.projcerti li {
+  padding: 2%;
+}
+
+@media (max-width: 990px) {
+  .projcerti {
+    text-align: left;
+    color: white;
+    float: left;
   }
 }
 
