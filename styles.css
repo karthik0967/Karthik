@@ -206,7 +206,7 @@ p {
 }
 
 .imgsk {
-  margin: 3%;
+  margin: 10%;
 }
 .psk {
   font-family: "Josefin Sans", sans-serif;
@@ -226,6 +226,8 @@ p {
   .imgsk {
     height: 32px;
     width: 27px;
+
+    margin-bottom: 12%;
   }
   .psk {
     font-family: "Josefin Sans", sans-serif;
