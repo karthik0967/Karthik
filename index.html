@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -65,13 +66,36 @@
       <!-- Home -->
       <section id="home">
         <div class="container home">
-          <p class="name">Hello, I'm Karthik</p>
+          <p class="name">
+            <span
+              class="auto-input"
+              style="color: #e86a33; font-weight: bold"
+            ></span>
+          </p>
           <p class="info">
             Computer Science Graduate seeking an opportunity to work, contribute
             and enhance my skills.I am passionate about both front-end and
             back-end development, and a particular interest in the exciting
             field of machine learning.
           </p>
+          <div class="download_contact_buttons">
+            <!-- <a href="">
+              <button type="button" class="btn btn-warning">
+                Download Resume
+              </button></a
+            > -->
+            <a href="Assets/Resume.pdf" class="btn btn-warning" role="button"
+              >Download Resume</a
+            >
+            <!-- <a href=""
+              ><button type="button" class="btn btn-warning">
+                Contact Me
+              </button></a
+            > -->
+            <a href="#footer" class="btn btn-warning" role="button"
+              >Contact Me</a
+            >
+          </div>
         </div>
       </section>
       <!-- Home -->
@@ -211,15 +235,16 @@
             </div>
             <div class="desc">
               <p class="pexp">
-                &#x2022; Learnt new web development tools.
+                &#x2022; Learning and Developting Websites.
                 <br />
-                &#x2022; I got a chance to be a team leader and to build a
-                project Blood Bank Management System based on .NET MVC
-                technology.
+                <!-- &#x2022; Contributing to client in  -->
               </p>
             </div>
           </div>
+          <br />
+
           <center><hr style="color: white; width: 50%" /></center>
+
           <div class="jobs">
             <div class="job">
               <img
@@ -246,6 +271,7 @@
               </p>
             </div>
           </div>
+          <br />
           <center><hr style="color: white; width: 50%" /></center>
           <div class="jobs">
             <div class="job">
@@ -311,7 +337,7 @@
 
       <!--Footer-->
 
-      <footer>
+      <footer id="footer">
         <div class="container-fluid text-center">
           <div
             class="row row-cols-1 row-cols-sm-3 row-cols-md-3"
@@ -385,6 +411,11 @@
     <script>
       var myVar;
       var wel;
+      const typed = new Typed(".auto-input", {
+        strings: ["Hello, I'm Karthik"],
+        startDelay: 4000,
+        typeSpeed: 100,
+      });
 
       function myFunction() {
         document.body.style.backgroundColor = "#03001C";

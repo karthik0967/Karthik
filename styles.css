@@ -6,6 +6,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
 html,
 body {
   width: 100%;
@@ -154,7 +155,8 @@ body {
   width: auto;
 }
 .name {
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-family: "Castoro Titling", cursive;
   font-size: 55px;
   margin-top: 20%;
   text-align: left;
@@ -162,20 +164,28 @@ body {
 .info {
   font-size: 25px;
   text-align: left;
+  font-family: "Castoro Titling", cursive;
+}
+
+.btn-warning {
+  padding: 17px;
+  margin: 1%;
+  float: left;
 }
 @media (max-width: 900px) {
   .name {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 40px;
+    /* font-family: "Josefin Sans", sans-serif; */
 
-    margin-top: 30vh;
+    font-size: 30px;
+
+    margin-top: 25vh;
   }
   .name {
     text-align: center;
   }
   .info {
     text-align: center;
-
+    font-size: 25px;
     font-size: 18px;
   }
   .navbar-brand {
@@ -186,6 +196,14 @@ body {
     font-weight: bold;
 
     border-radius: 30%;
+  }
+  .btn-warning {
+    padding: 17px;
+    margin: 1%;
+  }
+  .download_contact_buttons {
+    display: grid;
+    font-weight: bold;
   }
 }
 .ab {
@@ -219,6 +237,7 @@ p {
   }
   .name {
     text-align: center;
+    font-weight: bold;
   }
   .flex-lg-row {
     align-items: center;
