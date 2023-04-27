@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
+
 html,
 body {
   width: 100%;
@@ -15,6 +16,8 @@ body {
   padding: 0px;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: #0f0e0e !important;
+  color: white !important;
 }
 #loader {
   /* margin-top: 20%; */
@@ -122,7 +125,7 @@ body {
 .titles {
   font-family: "Josefin Sans", sans-serif;
   font-size: 40px;
-  color: white;
+
   margin-bottom: 3%;
   margin-top: 3%;
 }
@@ -147,6 +150,11 @@ body {
   color: white;
 }
 
+.dark-mode {
+  background-color: white !important;
+  color: black !important;
+}
+
 /* Name & Image */
 
 .home {
@@ -157,13 +165,13 @@ body {
 .name {
   /* font-family: "Josefin Sans", sans-serif; */
   font-family: "Castoro Titling", cursive;
-  font-size: 55px;
+  font-size: 60px;
   margin-top: 17%;
-  text-align: left;
+  text-align: justify;
 }
 .info {
+  text-align: justify;
   font-size: 25px;
-  text-align: left;
   font-family: "Castoro Titling", cursive;
 }
 
@@ -174,10 +182,16 @@ body {
   width: 15%;
 }
 @media (max-width: 900px) {
+  .home {
+    padding: 1%;
+    height: fit-content;
+    min-height: 90vh;
+    width: auto;
+  }
   .name {
     /* font-family: "Josefin Sans", sans-serif; */
 
-    font-size: 30px;
+    font-size: 32px;
 
     margin-top: 40%;
   }
@@ -185,9 +199,9 @@ body {
     text-align: center;
   }
   .info {
-    text-align: center;
-    font-size: 25px;
-    font-size: 18px;
+    font-size: 17px;
+
+    text-align: justify;
   }
   .navbar-brand {
     font-size: 20px !important;
@@ -212,9 +226,6 @@ body {
   padding: 2.5%;
   border-radius: 50px 50px 50px 50px;
 }
-p {
-  color: white;
-}
 
 /* Skills */
 .skills {
@@ -234,9 +245,6 @@ p {
 }
 
 @media (max-width: 990px) {
-  .info {
-    text-align: center;
-  }
   .name {
     text-align: center;
     font-weight: bold;
@@ -324,7 +332,7 @@ p {
 /* Projects and Certifications*/
 .projcerti {
   text-align: left;
-  color: white;
+
   display: inline-block;
 }
 .projcerti li {
@@ -334,7 +342,7 @@ p {
 @media (max-width: 990px) {
   .projcerti {
     text-align: left;
-    color: white;
+
     float: left;
   }
 }
