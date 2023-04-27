@@ -78,7 +78,7 @@
       </nav>
 
       <!-- Home -->
-      <section id="home">
+      <section id="home" class="hidden">
         <div class="container home">
           <p class="name">
             <span
@@ -117,7 +117,7 @@
       <center><hr style="color: white; width: 90%" id="skillshr" /></center>
 
       <!-- Skills -->
-      <section id="skills">
+      <section id="skills" class="hidden">
         <div class="container text-center skills">
           <h2 class="titles">Skills</h2>
 
@@ -228,7 +228,7 @@
       <center><hr style="color: white; width: 90%" id="exphr" /></center>
 
       <!--Experience-->
-      <section id="experience">
+      <section id="experience" class="hidden">
         <div class="container experience">
           <h2 class="titles">Experience</h2>
           <div class="jobs">
@@ -322,7 +322,7 @@
       <center><hr style="color: white; width: 90%" /></center>
 
       <!--Projects-->
-      <section id="projects">
+      <section id="projects" class="hidden">
         <div class="container projects">
           <div class="row">
             <div class="col-sm-6">
@@ -351,7 +351,7 @@
 
       <!--Footer-->
 
-      <footer id="footer">
+      <footer id="footer" class="hidden">
         <div class="container-fluid text-center">
           <div
             class="row row-cols-1 row-cols-sm-3 row-cols-md-3"
@@ -455,6 +455,19 @@
         var element = document.body;
         element.classList.toggle("dark-mode");
       }
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          console.log(entry);
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          } else {
+            entry.target.classList.remove("show");
+          }
+        });
+      });
+      const hiddenElements = document.querySelectorAll(".hidden");
+      hiddenElements.forEach((el) => observer.observe(el));
     </script>
   </body>
 </html>
