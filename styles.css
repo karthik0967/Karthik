@@ -349,14 +349,16 @@ body {
 
 /* Footer */
 footer {
-  background-color: #16213e;
+  background-color: #212a3e;
+  margin: 0;
+  padding: 0;
 }
 footer li {
   list-style: none;
   font-family: "Alkatra", cursive;
   font-size: 16px;
   text-align: left;
-  color: azure;
+  /* color: azure; */
 }
 .icon {
   margin: 2.5% 5% 2.5% 8%;
@@ -405,9 +407,9 @@ footer li {
 
 .hidden {
   opacity: 0;
-  filter: blur(5px);
+  filter: blur(10px);
   transform: translateX(-100%);
-  transition: all 1s;
+  transition: all 1.5s;
 }
 .show {
   opacity: 1;
