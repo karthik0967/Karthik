@@ -31,7 +31,7 @@
           <a class="navbar-brand" href="#">Karthik R</a>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
@@ -39,26 +39,41 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#home"
+                  draggable="true"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skillshr">Skills</a>
+                <a class="nav-link" href="#skillshr" draggable="true">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#exphr">Experience</a>
+                <a class="nav-link" href="#exphr" draggable="true"
+                  >Experience</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#projects" draggable="true"
+                  >Projects</a
+                >
               </li>
 
               <li class="nav-item">
-                <a href="javascript:darkMode()" class="nav-link"
+                <a
+                  href="javascript:darkMode()"
+                  class="nav-link"
+                  draggable="true"
                   ><img
                     src="Assets/dark-mode.png"
                     alt=""
@@ -97,6 +112,7 @@
               href="Assets/Karthik Resume.pdf"
               class="btn btn-warning"
               role="button"
+              draggable="true"
               >Download Resume</a
             >
             <!-- <a href=""
@@ -104,7 +120,11 @@
                 Contact Me
               </button></a
             > -->
-            <a href="#footer" class="btn btn-warning" role="button"
+            <a
+              href="#footer"
+              class="btn btn-warning"
+              role="button"
+              draggable="true"
               >Contact Me</a
             >
           </div>
@@ -367,7 +387,7 @@
                 align-items: center;
               "
             >
-              <a href="Assets/Karthik Resume.pdf" download>
+              <a href="Assets/Karthik Resume.pdf" download draggable="true">
                 <button type="button" class="btn btn-success">
                   Download Resume
                 </button>
@@ -403,11 +423,14 @@
                 display: flex;
               "
             >
-              <a href="https://github.com/karthik0967"
+              <a href="https://github.com/karthik0967" draggable="true"
                 ><img src="Assets/git.png" alt="" srcset="" class="social1"
               /></a>
 
-              <a href="https://www.linkedin.com/in/karthik0967">
+              <a
+                href="https://www.linkedin.com/in/karthik0967"
+                draggable="true"
+              >
                 <img src="Assets/lin.png" alt="" srcset="" class="social2"
               /></a>
             </div>
