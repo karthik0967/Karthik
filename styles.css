@@ -16,7 +16,7 @@ body {
   scroll-behavior: smooth;
   background-color: #0f0e0e !important;
   color: white !important;
-  font-family: "Comic Neue", cursive;
+  /* font-family: "Comic Neue", cursive; */
 }
 #loader {
   /* margin-top: 20%; */
@@ -124,7 +124,6 @@ body {
 .titles {
   font-family: "Josefin Sans", sans-serif;
   font-size: 40px;
-
   margin-bottom: 3%;
   margin-top: 3%;
 }
@@ -141,7 +140,7 @@ body {
 .navbar-brand {
   font-size: 25px !important;
   color: #e38b29 !important;
-  padding: 25px;
+  padding: 5px;
   margin: 2px;
   font-weight: bold;
 }
@@ -243,7 +242,7 @@ body {
 }
 
 .btn-warning {
-  padding: 17px;
+  padding: 7px;
   margin: 1%;
   float: left;
   width: 15%;
@@ -263,21 +262,21 @@ body {
 
   .info {
     font-size: 17px;
-
+    padding: 20px;
     text-align: justify;
     font-weight: normal;
   }
   .navbar-brand {
     font-size: 20px !important;
     color: #e38b29 !important;
-    padding: 25px;
+    padding: 5px;
     margin: 2px;
     font-weight: bold;
 
     border-radius: 30%;
   }
   .btn-warning {
-    padding: 17px;
+    padding: 7px;
     margin: 1%;
     width: auto;
   }
@@ -392,12 +391,13 @@ body {
 
 /* Projects and Certifications*/
 .projcerti {
-  text-align: left;
+  text-align: justify;
 
   display: inline-block;
 }
 .projcerti li {
-  padding: 1% 0 1%;
+  padding: 0.5% 0 0.5%;
+  text-align: justify;
 }
 
 @media (max-width: 990px) {
@@ -405,6 +405,12 @@ body {
     text-align: left;
 
     float: left;
+  }
+  .proj-ul {
+    font-size: 15px;
+  }
+  .proj-titles {
+    font-size: 18px;
   }
 }
 

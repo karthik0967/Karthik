@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles.css" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <link rel="icon" type="image/png" href="Assets/kk.png" />
     <title>Karthik R | Profile</title>
@@ -94,6 +93,7 @@
           <p class="name">
             <span class="auto-input"></span>
           </p>
+
           <p class="info">
             Computer Science Graduate seeking an opportunity to work, contribute
             and enhance my skills. I am passionate about both front-end and
@@ -108,7 +108,7 @@
             > -->
             <a
               href="Assets/Karthik Resume.pdf"
-              class="btn btn-warning"
+              class="btn btn-warning rounded-5"
               role="button"
               draggable="true"
               >Download Resume</a
@@ -120,7 +120,7 @@
             > -->
             <a
               href="#footer"
-              class="btn btn-warning"
+              class="btn btn-warning rounded-5"
               role="button"
               draggable="true"
               >Contact Me</a
@@ -245,7 +245,7 @@
 
       <!--Experience-->
       <section id="experience" class="hidden">
-        <div class="container experience">
+        <div class="container experience mb-4">
           <h2 class="titles">Experience</h2>
           <div class="jobs">
             <div class="job">
@@ -342,7 +342,7 @@
       <center><hr style="width: 90%" /></center>
 
       <!--Projects-->
-      <section id="projects" class="hidden">
+      <!-- <section id="projects" class="hidden">
         <div class="container projects">
           <div class="row">
             <div class="col-sm-6">
@@ -364,10 +364,83 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!--Projects-->
+      <section id="projects" class="hidden">
+        <div class="container projects">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2 class="titles">Projects</h2>
+              <ul class="projcerti px-3 m-2">
+                <h5 class="proj-titles">
+                  Heart Disease Prediction using Machine Learning
+                </h5>
+                <ul class="proj-ul">
+                  <li>
+                    Technologies used: Python, Scikit Learn and Jupyter notebook
+                  </li>
+                  <li>
+                    Using the heart disease data set in kaggle. This project
+                    consists a ML model that can predict wheather a person had
+                    heart disease or not.
+                  </li>
+                  <li>
+                    The model has been trained Algorithms like Support Vector
+                    Machine(SVM),K-Nearest Neighbor(KNN), and Decision Tree. The
+                    accuracy and reliability of the model were validated through
+                    rigorous evaluation measures.
+                  </li>
+                </ul>
+                <center><hr style="width: 50%" /></center>
+                <h5 class="proj-titles">
+                  Image Classification using Machine Learning
+                </h5>
+                <ul class="proj-ul">
+                  <li>Technologies used: Python, OpenCV and Google Collab.</li>
+                  <li>
+                    With python programming developed an image classification
+                    system using machine learning techniques, specifically
+                    OpenCV and the SVM (Support Vector Machine) algorithm.
+                  </li>
+                  <li>
+                    The objective was to train a model that could accurately
+                    classify images into different categories based on their
+                    visual features.
+                  </li>
+                </ul>
+                <center><hr style="width: 50%" /></center>
+                <h5 class="proj-titles">Tour booking website (Tourism)</h5>
+                <ul class="proj-ul">
+                  <li>
+                    Technologies used: HTML, CSS, Bootstrap, JS, MySql, PHP.
+                  </li>
+                  <li>
+                    The primary goal was to create a user-friendly platform that
+                    allows users to browse and book tours of their choice.
+                  </li>
+                  <li>
+                    The website offers a user-friendly interface for browsing,
+                    searching, and booking tours. The integration of payment
+                    gateways ensures secure online transactions.
+                  </li>
+                </ul>
+              </ul>
+            </div>
+
+            <div class="col-sm-6">
+              <h2 class="titles">Certificates</h2>
+              <ul class="projcerti">
+                <li>Intermediate And Advanced Python</li>
+                <li>Python For Data Science</li>
+                <li>Machine Learning</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <center><hr style="width: 90%" /></center>
+      <!--Projects-->
 
       <!--Footer-->
 
@@ -401,8 +474,12 @@
               "
             >
               <li>
-                <img src="Assets/mail.png" class="icon" alt="" " />
-                karthik765239@gmail.com
+                <a
+                  href="mailto: karthik765239@gmail.com"
+                  style="text-decoration: none; color: white"
+                  ><img src="Assets/mail.png" class="icon" alt="" " />
+                  karthik765239@gmail.com</a
+                >
               </li>
               <li>
                 <img src="Assets/telephone.png" class="icon" alt="" />8838407547
