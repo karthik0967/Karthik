@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
+
 /* Common */
 html,
 body {
@@ -410,7 +411,7 @@ body {
     font-size: 15px;
   }
   .proj-titles {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
