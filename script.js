@@ -3,7 +3,7 @@ var wel;
 const typed = new Typed(".auto-input,auto1", {
   strings: ["Hi, I'm Karthik"],
   startDelay: 4000,
-  typeSpeed: 100,
+  typeSpeed: 150,
 });
 
 function myFunction() {
