@@ -224,6 +224,8 @@ body {
   padding: 1%;
   min-height: 90vh;
   width: auto;
+  border-radius: 0 0 10px 0;
+  box-shadow: 5px 0 5px #ff6d28;
 }
 .name {
   font-family: "Josefin Sans", sans-serif;
@@ -254,6 +256,8 @@ body {
     height: fit-content;
     min-height: 90vh;
     width: auto;
+    box-shadow: none;
+    border-radius: none;
   }
   .name {
     font-size: 32px;
@@ -294,6 +298,8 @@ body {
 
   align-items: center;
   justify-content: center;
+  border-radius: 0 0 0 10px;
+  box-shadow: -5px 5px 5px #f4d160;
 }
 
 .imgsk {
@@ -330,6 +336,8 @@ body {
     min-height: 90vh;
     align-items: center;
     justify-content: center;
+    box-shadow: none;
+    border-radius: none;
   }
 }
 
@@ -342,6 +350,8 @@ body {
   justify-content: center;
   text-align: center;
   height: fit-content;
+  /* border-radius: 0 0 10px 0;
+  box-shadow: -5px 5px 5px #f4f2de; */
 }
 .imgex {
   float: left;
@@ -368,6 +378,8 @@ body {
     margin-top: 20%;
     align-items: center;
     justify-content: center;
+    box-shadow: none;
+    border-radius: none;
   }
   .job {
     padding: 3% 5% 0 3%;
@@ -391,6 +403,10 @@ body {
 }
 
 /* Projects and Certifications*/
+.projects {
+  border-radius: 0 0 0 10px;
+  box-shadow: -5px 5px 5px #b983ff;
+}
 .projcerti {
   text-align: justify;
 
@@ -402,6 +418,10 @@ body {
 }
 
 @media (max-width: 990px) {
+  .projects {
+    box-shadow: none;
+    border-radius: none;
+  }
   .projcerti {
     text-align: left;
 
