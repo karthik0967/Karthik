@@ -47,7 +47,7 @@ body {
   margin: auto;
   font-size: 25px;
   color: #f99417;
-  font-family: "Labrada", serif;
+  font-family: "Labrada", serif !important;
 
   display: none;
 }
@@ -71,7 +71,7 @@ body {
     margin: auto;
     font-size: 25px;
     color: #f99417;
-    font-family: "Labrada", serif;
+    font-family: "Labrada", serif !important;
 
     display: none;
   }
@@ -123,7 +123,7 @@ body {
 }
 
 .titles {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif !important;
   font-size: 40px;
   margin-bottom: 3%;
   margin-top: 3%;
@@ -148,7 +148,7 @@ body {
 .nav-item {
   margin: 0 60px 0 60px;
   font-size: 16px;
-  font-family: "Alkatra", cursive;
+  font-family: "Alkatra", cursive !important;
 }
 .nav-item .nav-link {
   color: white;
@@ -228,7 +228,7 @@ body {
   box-shadow: 5px 0 5px #ff6d28;
 }
 .name {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif !important;
   /* font-family: "Castoro Titling", cursive; */
   font-size: 100px;
   color: #e86a33;
@@ -239,7 +239,7 @@ body {
 .info {
   text-align: justify;
   font-size: 25px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif !important;
   padding: 10px;
   /* font-family: "Castoro Titling", cursive; */
 }
@@ -306,7 +306,7 @@ body {
   margin: 10%;
 }
 .psk {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif !important;
   font-size: 20px;
 }
 
@@ -325,7 +325,7 @@ body {
     margin-bottom: 12%;
   }
   .psk {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif !important;
     font-size: 14px;
   }
   .titles {
@@ -443,7 +443,7 @@ footer {
 }
 footer li {
   list-style: none;
-  font-family: "Alkatra", cursive;
+  font-family: "Alkatra", cursive !important;
   font-size: 16px;
   text-align: left;
   color: azure;
@@ -462,7 +462,7 @@ footer li {
 @media (max-width: 990px) {
   footer li {
     list-style: none;
-    font-family: "Alkatra", cursive;
+    font-family: "Alkatra", cursive !important;
     font-size: 12px;
     /* text-align: left; */
     color: azure;
