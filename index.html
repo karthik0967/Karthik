@@ -12,9 +12,26 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
-
     <link rel="icon" type="image/png" href="Assets/kk.png" />
     <title>Karthik R | Profile</title>
+    <!-- Google API Loader -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <script type="text/javascript">
+      //load jQuery
+      google.load("jquery", "1.7.1");
+
+      //Google Fonts
+      google.load("webfont", "1");
+
+      google.setOnLoadCallback(function () {
+        WebFont.load({
+          google: {
+            families: [],
+          },
+        });
+      });
+    </script>
   </head>
   <!-- Page Start -->
   <body onload="myFunction()" style="margin: 0">
