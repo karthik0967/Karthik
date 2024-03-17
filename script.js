@@ -1,9 +1,9 @@
 var myVar;
 var wel;
 const typed = new Typed(".auto-input,auto1", {
-  strings: ["Hi, I'm Karthik"],
+  strings: ["Hello! I'm Karthik"],
   startDelay: 4000,
-  typeSpeed: 150,
+  typeSpeed: 50,
 });
 
 function myFunction() {
