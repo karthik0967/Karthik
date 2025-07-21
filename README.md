@@ -1,3 +1,2 @@
-# Karthik
-Portfolio
-Hello I'm Karthik
+# Karthik's Portfolio
+
